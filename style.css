@@ -1,0 +1,74 @@
+@font-face {
+    font-family: starWars;
+    src: url(STARWARS.TTF) format('ttf');
+}
+
+html,body {
+    background-image: url('https://i.pinimg.com/originals/6e/3a/d0/6e3ad0f9192c1578842f5f78facbd229.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.flexbig {
+    height: 100%;
+    width: 100%;
+}
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    padding-top:18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: starWars;
+    color: yellow;
+    
+}
+
+label {
+    color:yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: starWars;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-left: 18%;
+    height: 20px;
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 35px; 
+    font-size: 15px;
+    background-color: black;
+    color:yellow;
+    font-family: starWars;
+    margin-top: 10%;
+
+}
+
+#answer {
+    color:yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: starWars;
+}
